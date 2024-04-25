@@ -1,0 +1,29 @@
+1#faça um programa que seja capaz de responder ao usuario se determinado numero  inserido é  "par" ou "impar"
+
+numero = int(input("digite o numero "))
+
+if numero %2 == 0:
+ print("o numero inserido é par ")
+else:
+ print("o numero iserido é impar")
+
+
+
+
+2#faça um programa que idenifique se o usuaro é "maior" ou "menor" de idade para tirar habilitação
+
+idade = int(input("digite a idade do usuario"))
+if idade >= 18:
+
+  print("maior de 18 anos ja pode tirar sua habilitação")
+else:
+  print("calma CALABRESO")
+
+
+
+3# faça um programa que imprima os numeros "pares" de 0 a 21
+
+for numero in range(21):
+ if numero %2 == 0:
+   print("numero par: ", numero)
+
